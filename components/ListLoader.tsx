@@ -8,10 +8,9 @@ const ListLoader = () => {
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "#F4A261",
       }}
     >
-      <Card id={1} title="White Rice" dificulty={2} image="image1" time={10} />
+      <Card id={1} title="Fried egg" dificulty={1} image="image1" time={5} />
     </View>
   );
 };

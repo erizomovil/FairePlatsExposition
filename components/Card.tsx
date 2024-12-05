@@ -11,9 +11,7 @@ type CardProps = {
 };
 
 const images: { [key: string]: any } = {
-  placeholder: require("../assets/img/placeholder_image.jpg"),
   image1: require("../assets/img/fried_egg.jpg"),
-  image2: require("../assets/img/white_rice.jpg"),
 };
 
 function Card(props: CardProps) {
@@ -49,7 +47,7 @@ const styles = StyleSheet.create({
     borderRadius: 30,
     maxHeight: 140,
     padding: 10,
-    margin: 10,
+    margin: 14,
     flex: 1,
     flexDirection: "row",
     alignItems: "center",
